@@ -7,7 +7,7 @@
 .header{
     min-height: 103vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/u6.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/u6.jpeg);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -161,7 +161,7 @@ nav .fa{
 
 .course-col{
     flex-basis: 31%;
-    background-color:  rgb(255, 251, 201);
+    background-color:  bisque;
     border-radius: 10px;
 }
 
@@ -223,6 +223,10 @@ nav .fa{
     text-align: center;
 }
 
+.head-col img{
+    border-radius: 100%;
+}
+
 .head-col{
     position: relative;
     display: flex;
@@ -258,11 +262,12 @@ nav .fa{
 }
 
 .event-col{
-    flex-basis: 32%;
+    flex-basis: 30%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    background-size: auto;
 }
 
 .event-col img{
@@ -321,31 +326,33 @@ nav .fa{
 }
 
 
-
-
-.contact{
+.cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.2), url(images/cs3.jpg));
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/students1.jpeg);
     background-position: center;
     background-size: cover;
-    text-align: center;
     border-radius: 10px;
+    text-align: center;
+    color: #fff;
     padding: 100px 0;
-
 }
 
-.contact h1{
-    color: black;
+.cta h1{
     margin-bottom: 40px;
     padding: 0;
 }
 
-@media(max-width: 700px){
-    .contact h1{
+@media(max-width: 700px) {
+    .cta h1{
         font-size: 24px;
-    }
+    }  
 }
+
+.cta-btn{
+    margin-top: 50px;
+}
+
 
 
 
@@ -353,6 +360,7 @@ nav .fa{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background-color: bisque;
 }
 
 .footer h4{
@@ -363,9 +371,9 @@ nav .fa{
 
 .icons .fa{
     color: black;
-    margin: 0 13px;
+    margin: 0 10px;
     cursor: pointer;
-    padding: 18px 0;
+    padding: 15px 0;
 }
 
 
@@ -373,13 +381,14 @@ nav .fa{
 /*---about us page---*/
 
 .sub-header{
-    height: 100vh;
+    height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),url(images/students1.jpeg));
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/students1.jpeg);
     background-position: center;
     position: relative;
     background-size: cover;
     text-align: center;
+    color: white;
 }
 
 .sub-header h1{
