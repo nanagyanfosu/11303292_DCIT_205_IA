@@ -489,3 +489,23 @@ nav .fa{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+.tablerow{
+    position: relative;
+    width: 100%;
+
+    padding: 20px;
+}
+
+
+th,td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 760px) {
+    .tablerow{
+        width: 90%;
+    }
+}
