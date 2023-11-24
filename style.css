@@ -161,7 +161,7 @@ nav .fa{
 
 .course-col{
     flex-basis: 31%;
-    background-color:  bisque;
+    background-color: rgb(255, 251, 201);
     border-radius: 10px;
     margin-bottom: 15px;
 }
@@ -192,28 +192,29 @@ nav .fa{
 
 
 .mission{
-    width: 80%;
-    margin: auto;
+    width: 75%;
     text-align: center;
-    padding-top: 100px;
+    padding: 3%;
+    margin: auto;
+    background: rgb(255, 251, 201);
 }
 
-.mission-col{
-    border-radius: 10px;
-    margin-bottom: 30px;
-    overflow: hidden;
 
-}
 
-.mission h3{
+.mis-img h3{
     font-size: 36px;
     font-weight: 600;
     color: rgb(65, 81, 123);
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 3%;
 }
 
-.mission-col img{
-    width: 100%;
+.mission p{
+    margin: 40px;
+    text-align: center;
 }
+
 
 
 .head{
@@ -230,16 +231,19 @@ nav .fa{
 }
 
 .head-col img{
-    border-radius: 100%;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 45px;
+    height:  10%;
 }
 
 .head-col{
     position: relative;
+    flex-basis: 31%;
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
-    flex-basis: 31%;
-    background-color: rgb(255, 251, 201);
+    margin-top: 5%; 
+    background: rgb(255, 251, 201);
 }
 
 .head-col p{
@@ -259,6 +263,7 @@ nav .fa{
     color: rgb(65, 81, 123);
 }
 
+
 .event p{
     color: black;
     font-size: 14px;
@@ -268,7 +273,7 @@ nav .fa{
 }
 
 .event-col{
-    flex-basis: 30%;
+    flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -278,6 +283,7 @@ nav .fa{
 
 .event-col img{
     width: 100%;
+    background-size: contain;
 }
 
 .layer{
@@ -297,9 +303,9 @@ nav .fa{
 
 .layer h3{
     width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 251, 201);
+    font-size: 17px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -314,8 +320,8 @@ nav .fa{
 
 .layer p{
     width: 100%;
-    font-weight: 400;
-    color: black;
+    font-weight: 500;
+    color: white;
     font-size: 14px;
     bottom: 0;
     left: 50%;
@@ -325,8 +331,8 @@ nav .fa{
 }
 
 .layer:hover p{
-    bottom: 60%;
-    opacity: 1;
+    bottom: 25%;
+    opacity: 1.5;
     transition: 1.5s;
 
 }
@@ -360,7 +366,7 @@ nav .fa{
 }
 
 
-
+/* footer */
 
 .footer{
     width: 100%;
@@ -389,7 +395,7 @@ nav .fa{
 .sub-header{
     height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/students1.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/students6.webp);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -399,6 +405,39 @@ nav .fa{
 
 .sub-header h1{
     margin-top: 180px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.sub-header p{
+    margin: auto;
+    padding-top: 12%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.sub-header-contact{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/students8.webp);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sub-header-contact h1{
+    margin-top: 180px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.sub-header-contact p{
+    margin: auto;
+    padding-top: 12%;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .about-us{
@@ -421,12 +460,22 @@ nav .fa{
     padding-top: 0;
 }
 
+.about-col h4{
+    margin-top: 25px;
+}
+
 .about-col p{
     padding: 15px 0 25px;
 }
 
+.about-col a{
+    text-decoration: none;
+}
+
 .blue-btn{
     background: transparent;
+    margin-top: 14px;
+    margin-bottom: 2px;
     border: 1px solid rgba(59, 79, 157, 0.7);
     color: rgba(59, 79, 157, 0.7);
     text-decoration: none;
@@ -446,6 +495,8 @@ nav .fa{
 .location iframe{
     width: 100%;
 }
+
+/* contact page */
 
 .contact-us{
     width: 80%;
@@ -491,15 +542,22 @@ nav .fa{
 }
 
 .tablerow{
-    position: relative;
-    width: 100%;
+    width: 90%;
+    margin: 10% auto;
+    padding-top: 15px;
+    position: inherit;
+    font-size: small;
+    padding-bottom: 50px;
+}
 
-    padding: 20px;
+.tablerow1, .tablerow2{
+    display: flex;
+    padding: 12px 3px;
 }
 
 
 th,td{
-    padding: 15px;
+    padding: 10px;
     text-align: left;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
