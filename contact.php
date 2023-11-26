@@ -9,7 +9,7 @@ $email_body = 'user name: $name.\n'.
               'user email: $visitor_email.\n'.
               'user message: $message .\n';
 
-$to = 'dcs@ug.edu.gh';
+$to = 'nanagyanfosu@gmail.com';
 
 $headers = "from: $email_from \r\n";
 

@@ -440,6 +440,78 @@ nav .fa{
     font-size: 20px;
 }
 
+.sub-header-about{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/stud2.webp);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sub-header-about h1{
+    margin-top: 180px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.sub-header-about p{
+    margin: auto;
+    padding-top: 12%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.sub-header-masters{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/stud3.webp);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sub-header-masters h1{
+    margin-top: 180px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.sub-header-masters p{
+    margin: auto;
+    padding-top: 12%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.sub-header-phd{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/phd1.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sub-header-phd h1{
+    margin-top: 180px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.sub-header-phd p{
+    margin: auto;
+    padding-top: 12%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 .about-us{
     width: 80%;
     margin: auto;
@@ -565,5 +637,88 @@ th,td{
 @media (max-width: 760px) {
     .tablerow{
         width: 90%;
+    }
+}
+
+/* blog-content */
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+    display: flex;
+}
+
+.blog-left{
+    flex-basis: 67%;
+}
+
+.blog-left img{
+    width: 100%;
+}
+
+.blog-left h2{
+    color: black;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p{
+    padding: 0;
+}
+
+.blog-right{
+    flex-basis: 32%;
+    margin-left: 5%;
+}
+
+.blog-right h3{
+    background: rgba(59, 79, 157, 0.7);
+    color: white;
+    padding: 7px 0;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+  
+}
+
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding: 5px;
+    margin-left: 5%;
+    box-sizing: border-box;
+}
+
+.comment-box{
+    border: 1px solid;
+    margin :50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3{
+    text-align: left;
+}
+
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 15px;
+    margin :5px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0 ;
+}
+
+.comment-form button{
+    margin: 10px 0;
+    margin-left: 16px;
+}
+
+@media (max-width:700px) {
+    .sub-header h1{
+        font-size: 24px;
     }
 }
